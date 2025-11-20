@@ -4,7 +4,7 @@ import numpy as np
 
 # --- 1. CONFIGURATION ---
 
-JSON_GAME_FOLDER = 'C:/Users/sidha/nfl_json_output'
+JSON_GAME_FOLDER = 'C:/Users/INSERT_FOLDER_LOCATION_HERE'
 OUTPUT_TEXTBOOK_FILE = 'gemma_textbook_full_1998_present.jsonl'
 
 
@@ -213,4 +213,5 @@ Predict the final score for the upcoming game: {game['home_team']} (Home) vs. {g
     print(f"Your 'textbook' is ready: {OUTPUT_TEXTBOOK_FILE}")
 
 if __name__ == "__main__":
+
     main()
