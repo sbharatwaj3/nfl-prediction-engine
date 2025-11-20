@@ -1,6 +1,7 @@
 # NFL AI Prediction Engine (V1)
 
-An open-source AI model that predicts NFL scores using historical data. Trained on **7,000+ games** (1999-2024) using Google's **Gemini 2.5 Flash** LLM via Vertex AI.
+An open-source AI model that predicts NFL scores using historical data. Trained on **7,000+ games** (1999-2024) using Google's **Gemini 2.5 Flash** LLM via Vertex AI. 
+All graphs and metrics were created using Microsoft Excel.
 
 ## The Results
 Our model was tested against top ESPN analysts for Week 11 of the 2025 season. It was consistently on par with the human experts when evaluated on accuracy.
