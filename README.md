@@ -9,20 +9,20 @@ Our model was tested against top ESPN analysts for Week 11 of the 2025 season. I
 We tested the model's accuracy across varying error thresholds.
 **Neon Green Line = Our AI Model.** You can see it consistently scores close to the human analysts across almost all strictness levels.
 
-![Sensitivity Analysis](sensitivity_analysis.png)
+![Sensitivity Analysis](Sensitivity Analysis - Prediction Score vs Error Threshold.png)
 
 ### 2. Where the Points Come From
 We broke down the scores to see if analysts were just guessing winners or actually predicting the spread correctly.
 * **Light Blue:** Points for Accuracy (Error < 10 points).
 * **Dark Blue:** Points for Correct Winner.
 
-![Score Composition Breakdown](score_breakdown.png)
+![Score Composition Breakdown](Score Composition Breakdown.png)
 
 ### 3. Win Score Analysis
 Win Score measures the percentage of correct winner predictions. We compared the model's 'pick accuracy' directly against human analysts for the same slate of games.
 **Green Bar = Our AI Model.** You can see that it is on par, if not better than, some of the analysts' predictions.
 
-![Win Score Analysis](win_score_average.png)
+![Win Score Analysis](Win Score Average Per Analyst.png)
 
 ### 4. Average Spread + Differential Mean
 We compared the average combined error (Spread + Point Differential) across all predictions. 
@@ -31,7 +31,7 @@ We compared the average combined error (Spread + Point Differential) across all 
 where the model predicted large blowouts. This suggests that while the model is aggressive in identifying potential upsets, human analysts tend to be more conservative
 with their point spreads.
 
-![Average Error Graph](average_spread_differential_mean.png)
+![Average Error Graph](Average of Spread+Differential Mean.png)
 ---
 
 ## How It Works
