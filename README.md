@@ -13,7 +13,7 @@ We tested the model's accuracy across varying error thresholds.
 
 ### 2. Where the Points Come From
 We broke down the scores to see if analysts were just guessing winners or actually predicting the spread correctly.
-* **Light Blue:** Points for Accuracy (Error < 10 points).
+* **Light Blue:** Points for Accuracy (Error <= 10 points).
 * **Dark Blue:** Points for Correct Winner.
 
 ![Score Composition Breakdown](score_breakdown.png)
